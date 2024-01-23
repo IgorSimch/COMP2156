@@ -2,6 +2,6 @@ sudo: required
 services: 
   - docker
 before_install:
-  - docker build -t IgorSimch/COMP2156 -f Dockerfile.dev
+  - docker build -t IgorSimch/COMP2156-react -f Dockerfile.dev .
 script:
   - docker run IgorSimch/COMP2156 npm run test -- --coverage
