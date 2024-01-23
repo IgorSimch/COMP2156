@@ -1,0 +1,5 @@
+sudo: required
+services: 
+  - docker
+before_install:
+  - docker build -t IgorSimch/COMP2156 -f Dockerfile.dev . 
