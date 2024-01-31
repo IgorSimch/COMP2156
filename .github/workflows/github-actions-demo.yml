@@ -1,4 +1,4 @@
-Name: DevOps Lab Exercise
+name: DevOps Lab Exercise
 run-name: ${{ github.actor }} is testing out GitHub Actions 
 
 # Controls when the workflow will run
